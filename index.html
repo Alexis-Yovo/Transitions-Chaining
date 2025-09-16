@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ChaineTransition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="btn">Animation</div>
+    <div class="box">
+        <p class="txt">Appel à l'action</p>
+    </div>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', () => {
+
+            document.querySelector('.box').classList.toggle('anim');
+            document.querySelector('.txt').classList.toggle('animp');
+
+        })
+    </script>
+</body>
+</html>
